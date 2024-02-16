@@ -1,0 +1,24 @@
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Minimum size reduced to 180px */
+  gap: 20px;
+  margin: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusting size for larger screens */
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Adjusting size for larger screens */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Adjusting size for larger screens */
+  }
+}
