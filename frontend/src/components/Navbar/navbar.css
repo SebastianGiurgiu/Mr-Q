@@ -1,3 +1,27 @@
-nav {
-  background: white;
+.navbar {
+  background: var(--colorDark);
+}
+
+.navbar__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: var(--colorWhite);
+  padding: 0 10px;
+}
+
+.navbar__link:hover {
+  color: var(--colorWhite);
+}
+
+.navbar__link.active {
+  background-color: var(--colorPrimary);
+  color: var(--colorDark);
+  border-radius: 5px;
+  padding: 5px 15px;
 }
